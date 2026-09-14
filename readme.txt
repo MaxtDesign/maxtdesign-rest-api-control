@@ -4,7 +4,7 @@ Tags: rest api, security, disable rest api, json api, api control
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -96,7 +96,26 @@ Use the Export Settings button to download a JSON file, then use Import Settings
 
 This plugin makes no external HTTP requests, sets no cookies, loads no third-party scripts, and collects no analytics. It does not track usage and never "calls home." It stores a single settings option (`mdra_settings`) in your database and nothing else; that option is removed when you delete the plugin. No personal or visitor data is processed or transmitted.
 
+== Security ==
+
+Found a security issue? Please report it privately to security@maxtdesign.com rather than posting
+in a public support thread. We aim to acknowledge reports within 3 business days and will agree a
+disclosure timeline with you.
+
+The full policy, including what to put in a report and what to expect back, is in SECURITY.md in
+the plugin's repository.
+
+This plugin is published on WordPress.org by the account `slaacr`, which is MaxtDesign. The account
+name predates the brand and WordPress.org does not support renaming accounts, so the two names
+differ. Anything published under `slaacr` is ours.
+
 == Changelog ==
+
+= 1.0.6 =
+* New: published security contact and vulnerability disclosure policy. Security issues now have a private reporting route (security@maxtdesign.com) instead of a public support thread, with a 3 business day acknowledgement target.
+* New: documented that the WordPress.org account `slaacr` is MaxtDesign, so it is clear who publishes this plugin.
+* Declared compatibility with WordPress 7.1.
+* No functional changes.
 
 = 1.0.5 =
 * Internationalization: the text domain now matches the plugin slug (`maxtdesign-rest-api-control`) so the plugin can be translated through the WordPress.org translation system. No functional change.
@@ -135,6 +154,9 @@ This plugin makes no external HTTP requests, sets no cookies, loads no third-par
 * Clean uninstall — removes all plugin data.
 
 == Upgrade Notice ==
+
+= 1.0.6 =
+Documentation and compatibility only. Adds a private security contact and confirms WordPress 7.1 support. No functional changes.
 
 = 1.0.5 =
 Internationalization fix so the plugin is translatable via WordPress.org. No functional change.

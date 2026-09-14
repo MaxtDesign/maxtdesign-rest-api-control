@@ -11,6 +11,15 @@ recent release.
 | Latest stable (1.0.x) | ✅ |
 | Older releases | ❌ |
 
+## Who publishes this plugin
+
+This plugin is published on WordPress.org by the account **`slaacr`**, which is
+MaxtDesign. The account name predates the brand, and WordPress.org does not
+support renaming accounts, so the two names differ. Anything published under
+`slaacr` is ours. We state this rather than leave you to work it out, because
+being able to tell who publishes a plugin is the whole point of a security
+contact.
+
 ## Reporting a vulnerability
 
 If you believe you have found a security vulnerability in this plugin, please
