@@ -65,6 +65,9 @@ tools/
 # wp.org marketing assets — published separately, NOT bundled into trunk
 .wporg-assets/
 
+# Release gate output (zip, SBOM, release-gate.json)
+_build/
+
 # Documentation (wp.org uses readme.txt, not markdown)
 docs/
 CONTRIBUTING.md
